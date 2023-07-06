@@ -9,8 +9,16 @@ packages = [{include = "kopikat_python"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 requests = "^2.31.0"
-opencv-python-headless = "^4.8.0.74"
-opencv-python = "^4.8.0.74"
+
+opencv-python = { version = "^4.8.0.74", optional = true }
+opencv-python-headless = { version = "^4.8.0.74", optional = true }
+pillow =  { version = "^10.0.0", optional = true } 
+
+
+[tool.poetry.extras]
+desktop = ["opencv-python"]
+headless = ["opencv-python-headless"]
+pillow = ["pillow"]
 
 
 [build-system]
