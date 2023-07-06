@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "kopikat-python"
+version = "0.1.0"
+description = ""
+authors = ["Onuralp SEZER <thunderbirdtr@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kopikat_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+opencv-python-headless = "^4.8.0.74"
+opencv-python = "^4.8.0.74"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
