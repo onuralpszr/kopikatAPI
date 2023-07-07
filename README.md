@@ -2,7 +2,7 @@
 <h1 align="center">KopikatAPI 😺</h1>
 
 <p align="center">👋 Hello, KopikatAPI 🐍 Python library for interacting with the Kopikat API. </p>
- 
+
 <p align="center">
   <a href="https://github.com/onuralpszr/kopikatAPI"><img src="logo/kopikatAPI_Logo.png" alt="KerasFuse"></a>
 </p>
@@ -14,7 +14,7 @@ Kopikat project allows people to generative data augmentation. So people can enl
 You can install the `KopikatAPI` library using pip in between [Python**3.11>=Python>=3.8**](https://www.python.org/) environment.
 
 ```bash
-pip install kopikatapi
+pip install kopikatapi[desktop]
 ```
 
 ## 🔥 Quickstart
