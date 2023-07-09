@@ -4,7 +4,7 @@
 <p align="center">👋 Hello, KopikatAPI 🐍 Python library for interacting with the Kopikat API. </p>
 
 <p align="center">
-  <a href="https://github.com/onuralpszr/kopikatAPI"><img src="logo/kopikatAPI_Logo.png" alt="KerasFuse"></a>
+  <a href="https://github.com/onuralpszr/kopikatAPI"><img src="https://raw.githubusercontent.com/onuralpszr/kopikatAPI/main/logo/kopikatAPI_Logo.png" alt="KopikatAPI"></a>
 </p>
 
 Kopikat project allows people to generative data augmentation. So people can enlarge and diversify datasets and is specifically helpful for datasets with up to 5,000 images that are typical for real-life AI projects.
