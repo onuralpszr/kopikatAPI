@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kopikatapi"
-version = "0.0.1"
+version = "0.0.2"
 description = "Kopikat.co Python Client for API access"
 authors = ["Onuralp SEZER <thunderbirdtr@gmail.com>"]
 readme = "README.md"
