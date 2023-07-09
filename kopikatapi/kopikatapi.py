@@ -131,16 +131,16 @@ class KopikatAPI:
             url, params=params, headers=headers, files=files, timeout=60
         )
 
-        if response.status_code == requests_codes.codes["ok"]:
+        if response.status_code == requests_codes["ok"]:
             self.__response = response.json()
             return self.__response
-        elif response.status_code == requests_codes.codes["unauthorized"]:
+        elif response.status_code == requests_codes["unauthorized"]:
             raise ValueError("API key is invalid")
-        elif response.status_code == requests_codes.codes["unprocessable_entity"]:
+        elif response.status_code == requests_codes["unprocessable_entity"]:
             raise ValueError(f"Validation Error: {response.json()['detail']}")
-        elif response.status_code == requests_codes.codes["bad_request"]:
+        elif response.status_code == requests_codes["bad_request"]:
             raise ValueError(f"Bad Request: {response.json()['detail']}")
-        elif response.status_code == requests_codes.codes["internal_server_error"]:
+        elif response.status_code == requests_codes["internal_server_error"]:
             raise ValueError("Internal Server Error, please try again later")
         else:
             raise ValueError(f"Unknown Error, status code: {response.status_code}")
