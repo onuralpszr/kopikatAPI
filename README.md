@@ -14,7 +14,7 @@ Kopikat project allows people to generative data augmentation. So people can enl
 You can install the `KopikatAPI` library using pip in between [Python**3.11>=Python>=3.8**](https://www.python.org/) environment.
 
 ```bash
-pip install kopikatapi[desktop]
+pip install kopikatapi
 ```
 
 ## 🔥 Quickstart
