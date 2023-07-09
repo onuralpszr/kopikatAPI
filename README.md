@@ -32,6 +32,10 @@ cv2.waitKey(0)
 
 ```
 
+## Get your API Key
+
+Contact with kopikat team from [here](https://kopikat.gitbook.io/api/quick-start#1.-get-your-api-key)
+
 
 ## Disclaimers
 This is not an official Kopikat product. This is a personal project and is not affiliated with Kopikat in any way.
