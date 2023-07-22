@@ -43,12 +43,12 @@ pre-commit = "^3.3.3"
 
 
 [tool.bandit]
-target = ["tests", "metaseg"]
+target = ["tests", "kopikatapi"]
 tests = ["B201", "B301"]
 
 [tool.autoflake]
 check = true
-imports = ["cv2", "requests", "metaseg"]
+imports = ["cv2", "requests", "kopikatapi"]
 
 
 [tool.black]
