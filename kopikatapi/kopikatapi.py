@@ -121,6 +121,7 @@ class KopikatAPI:
             "environment": environment,
             "pipeline": self.__pipeline.value,
             "mode": self.__mode.value,
+            "strength": 0.0,
         }
         headers = {"accept": "application/json"}
         files = {"image": (f"input.{image_type}", img_byte, image_enum_type.value)}
