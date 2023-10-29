@@ -26,6 +26,9 @@
 <a href="https://pypi.org/project/kopikatapi" target="_blank">
     <img src="https://img.shields.io/pypi/status/kopikatapi?color=orange" alt="Project Status">
 </a>
+<a href="https://makeapullrequest.com" target="_blank">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+</a>
 </p>
 
 Kopikat project allows people to generative data augmentation. So people can enlarge and diversify datasets and is specifically helpful for datasets with up to 5,000 images that are typical for real-life AI projects.
