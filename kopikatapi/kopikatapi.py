@@ -82,7 +82,7 @@ class KopikatAPI:
         # Convert PIL image to byte
         image_enum_type = ImageType.PNG
         # Check if image is valid for JPEG, JPG, PNG and set image type
-        if (pil_image.format == "JPEG") or (pil_image.format == "JPG"):
+        if pil_image.format in ("JPEG", "JPG"):
             image_enum_type = ImageType.JPG
         elif pil_image.format == "PNG":
             image_enum_type = ImageType.PNG
