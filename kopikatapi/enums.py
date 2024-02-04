@@ -1,4 +1,5 @@
 """Enum functions for Kopikat API."""
+
 from enum import Enum
 
 
