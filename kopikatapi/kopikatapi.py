@@ -154,7 +154,7 @@ class KopikatAPI:
     @strength.setter
     def strength(self, strength: float) -> None:
         """Strength of augmentation."""
-        if strength < 0.0 or strength > 1.0:  # noqa: PLR2004
+        if strength < 0.0 or strength > 1.0:
             raise ValueError("Strength must be between 0.0 and 1.0")
         self.__strength = strength
 
